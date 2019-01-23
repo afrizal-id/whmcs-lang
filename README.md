@@ -1,7 +1,7 @@
 # WHMCS Languages Modules for Bahasa Indonesia
 This module is original translated from English to Indonesian
 
-# WHMCS Support Version
+# WHMCS Version Supported
 <br>7.0.1
 <br>7.0.2
 <br>7.1.0
@@ -16,5 +16,9 @@ This module is original translated from English to Indonesian
 <br>4. Go to Tabs Setup -> General Settings -> Localisation -> Default Language change it to Indonesia
 <br>5. Save Changes
 
-# Credit by
+# Credits
 e-Padi.com Team
+<br>Afrizal
+
+# Demo
+<a href="https://login.e-padi.com" target="_blank">login.e-padi.com</a>
