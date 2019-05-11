@@ -40,12 +40,12 @@ $_LANG['outstandingbalance'] = "Tagihan anda";
 $_LANG['accountinfo'] = "Data Pribadi";
 $_LANG['accountstats'] = "Statistik Akun";
 $_LANG['addfunds'] = "Deposit Saldo";
-$_LANG['addfundsamount'] = "Jumlah Deposit";
+$_LANG['addfundsamount'] = "Ketik Jumlah Deposit";
 $_LANG['addfundsdescription'] = "Anda dapat menambahkan dana ke akun Anda, sehingga status tagihan secara otomatis terbayar ketika dihasilkan. Semua deposit tidak dapat diuangkan kembali.";
 $_LANG['addfundsmaximum'] = "Deposit Maksimum";
-$_LANG['addfundsmaximumbalance'] = "Saldo Maksimum";
-$_LANG['addfundsmaximumbalanceerror'] = "Jumlah Saldo Maksimum adalah";
-$_LANG['addfundsmaximumerror'] = "Jumlah Deposit Maksimum adalah";
+$_LANG['addfundsmaximumbalance'] = "Batas Saldo Tersedia Maksimum";
+$_LANG['addfundsmaximumbalanceerror'] = "Batas jumlah saldo maksimum adalah";
+$_LANG['addfundsmaximumerror'] = "Batas jumlah deposit maksimum adalah";
 $_LANG['addfundsminimum'] = "Deposit Minimum";
 $_LANG['addfundsminimumerror'] = "Jumlah Deposit Minimum adalah";
 $_LANG['addmore'] = "Tambah";
@@ -148,7 +148,7 @@ $_LANG['clientareacancelinvalid'] = "Akun ini sudah mengajukan permintaan pembat
 $_LANG['clientareacancellationendofbillingperiod'] = "Akhir Masa Penagihan";
 $_LANG['clientareacancellationimmediate'] = "Segera";
 $_LANG['clientareacancellationtype'] = "Jenis Pembatalan";
-$_LANG['clientareacancelled'] = "Batal";
+$_LANG['clientareacancelled'] = "Dibatalkan";
 $_LANG['clientareacancelproduct'] = "Permintaan pembatalan untuk";
 $_LANG['clientareacancelreason'] = "Jelaskan secara singkat alasan anda untuk pembatalan";
 $_LANG['clientareacancelrequest'] = "Permintaan Pembatalan Akun";
@@ -238,7 +238,7 @@ $_LANG['clientareanocontacts'] = "Tidak Ada Sub-Kontak";
 $_LANG['clientareapassword'] = "Password";
 $_LANG['clientareapending'] = "Menunggu";
 $_LANG['clientareapendingtransfer'] = "Transfer Tertunda";
-$_LANG['clientareaphonenumber'] = "Nomor Telp/HP";
+$_LANG['clientareaphonenumber'] = "Nomor Telp. / WhatsApp";
 $_LANG['clientareapostcode'] = "Kode Pos";
 
 $_LANG['clientareaproductdetails'] = "Rincian Order";
@@ -756,7 +756,7 @@ $_LANG['sslserverinfo'] = "Informasi Server";
 $_LANG['sslserverinfodetails'] = "Anda harus memiliki valid \"CSR\" (Certificate Signing Request) untuk mengkonfigurasi SSL Certificate. CSR adalah bagian dari teks terenkripsi yang dihasilkan oleh server web dimana SSL Certificate akan diinstal. Jika Anda belum memiliki CSR, Anda harus menghasilkan satu atau meminta penyedia hosting web Anda untuk menghasilkan satu untuk Anda. Juga pastikan Anda memasukkan informasi yang benar karena tidak dapat diubah setelah Sertifikat SSL telah dikeluarkan.";
 $_LANG['sslservertype'] = "Tipe Web Server";
 $_LANG['sslstatus'] = "Status Konfigurasi";
-$_LANG['statscreditbalance'] = "Saldo Kredit Rekening";
+$_LANG['statscreditbalance'] = "Saldo Tersedia";
 $_LANG['statsdueinvoicesbalance'] = "Saldo tagihan Jatuh Tempo";
 $_LANG['statsnumdomains'] = "Jumlah Domain";
 $_LANG['statsnumproducts'] = "Jumlah Layanan";
@@ -768,12 +768,12 @@ $_LANG['supportclickheretocontact'] = "klik disini untuk menghubungi kami";
 $_LANG['supportpresalesquestions'] = "Jika Anda memiliki pertanyaan pra-penjualan";
 $_LANG['supportticketinvalid'] = "Ada Kesalahan. Tiket yang diminta tidak dapat ditemukan";
 $_LANG['supportticketsallowedextensions'] = "Format file yang diizinkan";
-$_LANG['supportticketschoosedepartment'] = "Pilih Departemen";
+$_LANG['supportticketschoosedepartment'] = "Pilih Divisi";
 $_LANG['supportticketsclient'] = "Klien";
 $_LANG['supportticketsclientemail'] = "Alamat Email";
 $_LANG['supportticketsclientname'] = "Nama";
 $_LANG['supportticketsdate'] = "Tanggal";
-$_LANG['supportticketsdepartment'] = "Departemen";
+$_LANG['supportticketsdepartment'] = "Divisi";
 $_LANG['supportticketsdescription'] = "Lihat dan menanggapi tiket yang ada";
 $_LANG['supportticketserror'] = "Kesalahan";
 $_LANG['supportticketserrornoemail'] = "Anda belum memasukkan Alamat Email Anda";
@@ -907,7 +907,7 @@ $_LANG['promoappliedbutnodiscount'] = "Kode Diskon yang Anda masukkan telah dite
 $_LANG['upgradeerroroverdueinvoice'] = "Maaf, saat ini Anda tidak dapat meng-upgrade atau downgrade produk ini karena ada tagihan yang belum lunas. <br /> <br /> Silakan melunasi tagihan Anda terlebih dahulu dan kemudian Anda akan dapat meng-upgrade atau downgrade order Anda kembali.";
 
 $_LANG['subaccountactivate'] = "Aktifkan Sub-Akun";
-$_LANG['subaccountactivatedesc'] = "Sub Kontak diizinkan untuk login ke Member Area";
+$_LANG['subaccountactivatedesc'] = "Izinkan Sub Kontak ini untuk login ke Member Area";
 $_LANG['subaccountpermissions'] = "Pilih Izin untuk Sub-Akun";
 $_LANG['subaccountpermsprofile'] = "Ubah Profil Akun Utama";
 $_LANG['subaccountpermscontacts'] = "Lihat dan Kelola Kontak";
@@ -1325,7 +1325,7 @@ $_LANG['networkstatusnone'] = "Saat ini tidak ada %s gangguan pada server";
 $_LANG['serverstatusheadingtext'] = "Below is a real-time overview of our servers where you can check if there's any known issues.";
 $_LANG['clientareacancelreasonrequired'] = "Mengapa Anda menghentikan layanan ini?";
 $_LANG['addfundsdescription'] = "Untuk memudahkan transaksi, silahkan lakukan Deposit Saldo sesuai keinginan Anda. Deposit dapat digunakan untuk Order baru atau perpanjang Order. Kami akan mengirim tagihan otomatis untuk penambahan deposit saldo.";
-$_LANG['addfundsnonrefundable'] = "* Deposit tidak dapat dikembalikan.";
+$_LANG['addfundsnonrefundable'] = "* Deposit tidak dapat dikembalikan ke rekening Bank / Paypal pelanggan.";
 $_LANG['creditcardexpirydateinvalid'] = "The expiry date must be entered in the format MM/YY and must not be in the past";
 $_LANG['domaincheckerchoosedomain'] = "Check ketersediaan domain yang Anda inginkan...";
 $_LANG['domaincheckerchecknewdomain'] = "Mau registrasi domain baru, Check dulu disini...";
@@ -1366,12 +1366,83 @@ $_LANG['cpanelwhmlogin'] = "Login WHM";
 $_LANG['cpanelwebmaillogin'] = "Login Webmail";
 $_LANG['domainsrenewnow'] = "Perpanjang Sekarang";
 
+# Version 5.2
+
+$_LANG['yourclientareahostingaddons'] = "Layanan tambahan yang tersedia untuk produk ini.";
+$_LANG['loginrequired'] = "Harus Login";
+$_LANG['unsubscribe'] = "Unsubscribe";
+$_LANG['emailoptout'] = "Newsletter Opt-out";
+$_LANG['newsletterunsubscribe'] = "Newsletter Unsubscribe";
+$_LANG['emailoptoutdesc'] = "Saya ingin berhenti berlangganan newsletters";
+$_LANG['alreadyunsubscribed'] = "Anda telah berhenti berlangganan newsletters.";
+$_LANG['newsletterresubscribe'] = "If you wish to re-subscribe you can do so from the %sMy Details%s section of our client area at any time.";
+$_LANG['unsubscribehashinvalid'] = "Berhenti langganan gagal, silahkan menghubungi customer support.";
+$_LANG['unsubscribesuccess'] = "Berhenti berlangganan berhasil";
+$_LANG['newsletterremoved'] = "Terima kasih, email Anda telah berhasil dihapus dari mailing list kami.";
+$_LANG['erroroccured'] = "An Error Occurred";
+$_LANG['pwresetsuccessdesc'] = "Reset Password Anda telah berhasil. %sKlik disini%s untuk melanjutkan ke Member Area...";
+$_LANG['pwresetenternewpw'] = "Silahkan ketik password baru dibawah ini.";
+$_LANG['ordererrorsbudomainbanned'] = "Prefix subdomain yang Anda ketik tidak diizinkan - Silahkan coba lagi";
+$_LANG['ticketfeedbacktitle'] = "Bagaimana Pendapat Anda tentang Tiket";
+$_LANG['nosupportdepartments'] = "Divisi support tidak tersedia. Silahkan coba lagi.";
+$_LANG['feedbackclosed'] = "Anda tidak dapat memberikan Pendapat jika Tiket belum di Tutup";
+$_LANG['feedbackprovided'] = "Anda telah memberikan Pendapat untuk Tiket ini";
+$_LANG['feedbackthankyou'] = "Terima kasih telah memberikan Pendapat Anda.";
+$_LANG['feedbackreceived'] = "Pendapat Telah Kami Terima";
+$_LANG['feedbackdesc'] = "Please can we ask you to take a moment of your time to fill out the below form about the quality of your experience with our support team.";
+$_LANG['feedbackclickreview'] = "Klik disini untuk Review Tiket";
+$_LANG['feedbackopenedat'] = "Dibuka Pada";
+$_LANG['feedbacklastreplied'] = "Balasan Terakhir Untuk";
+$_LANG['feedbackstaffinvolved'] = "Staff Involved";
+$_LANG['feedbacktotalduration'] = "Total Durasi";
+$_LANG['feedbackpleaserate1'] = "Silahkan berikan rating (skala 1 - 10)";
+$_LANG['feedbackpleasecomment1'] = "Silahkan berikan komentar Anda";
+$_LANG['feedbackhandled'] = "menganani permintaan support";
+$_LANG['feedbackworst'] = "Terburuk";
+$_LANG['feedbackbest'] = "Terbaik";
+$_LANG['feedbackimprove'] = "How may we make your experience better in the future?";
+$_LANG['pleaserate2'] = "handled this support request";
+$_LANG['feedbacksupplyrating'] = "Please supply at least a rating for :staffname (comments are optional)";
+
+$_LANG['returnclient'] = "Kembali ke Member Area";
+
+$_LANG['clientareanavsecurity'] = "Security Settings";
+$_LANG['twofactorauth'] = "Two-Factor Authentication";
+$_LANG['twofaenable'] = "Enable Two-Factor Authentication";
+$_LANG['twofadisable'] = "Disable Two-Factor Authentication";
+$_LANG['twofaenableclickhere'] = "Click here to Enable";
+$_LANG['twofadisableclickhere'] = "Click here to Disable";
+$_LANG['twofaenforced'] = "For your security, we require that you must enable Two-Factor Authentication before you can continue. This page will guide you through the process of setting it up.";
+$_LANG['twofasetup'] = "Two-Factor Authentication Setup Process";
+$_LANG['twofasetupgetstarted'] = "Get Started";
+$_LANG['twofaactivationintro'] = "Two-Factor Authentication adds an extra layer of protection to logins. Once enabled &amp; configured, each time you sign in you will be asked to enter both your username & password as well as a second factor such as a security code.";
+$_LANG['twofaactivationmultichoice'] = "To continue, please choose your desired Two-Factor Authentication method from below.";
+$_LANG['twofadisableintro'] = "To disable Two-Factor Authentication please confirm your password in the field below.";
+$_LANG['twofaactivationerror'] = "An error occurred while attempting to activate Two-Factor Authentication for your account. Please try again.";
+$_LANG['twofamoduleerror'] = "An error occurred loading the module. Please try again.";
+$_LANG['twofaactivationcomplete'] = "Two-Factor Authentication Setup is Complete!";
+$_LANG['twofadisableconfirmation'] = "Two-Factor Authentication has now been disabled for your account.";
+$_LANG['twofabackupcodeis'] = "Your Backup Code is";
+$_LANG['twofanewbackupcodeis'] = "Your New Backup Code is";
+$_LANG['twofabackupcodelogin'] = "Enter Your Backup Code to Login";
+$_LANG['twofabackupcodeexpl'] = "Write this down on paper and keep it safe.<br />It will be needed if you ever lose your 2nd factor device or it is unavailable to you.";
+$_LANG['twofaconfirmpw'] = "Enter Your Password";
+$_LANG['twofa2ndfactorreq'] = "Your second factor is required to complete login.";
+$_LANG['twofa2ndfactorincorrect'] = "The second factor you supplied was incorrect. Please try again.";
+$_LANG['twofabackupcodereset'] = "Login via Backup Code Successful<br />Backup Codes are valid once only. It will now be reset.";
+$_LANG['twofacantaccess2ndfactor'] = "Can't Access Your 2nd Factor Device?";
+$_LANG['twofaloginusingbackupcode'] = "Login using Backup Code";
+$_LANG['twofageneralerror'] = "An error occurred loading the module. Please try again.";
+$_LANG['continue'] = "Continue";
+$_LANG['disable'] = "Disable";
+$_LANG['manage'] = "Manage";
+
 # Domain Addons
 $_LANG['domainaddons'] = "Tambahan";
 $_LANG['domainaddonsinfo'] = "Fitur Tambahan yang tersedia untuk Domain Anda. Silahkan diaktifkan sesuai kebutuhan.";
 $_LANG['domainaddonsdnsmanagement'] = "DNS Record Management";
-$_LANG['domainaddonsidprotectioninfo'] = "Sembunyikan data pribadi Anda pada Whois Domain untuk melindungi email Anda dari aktivitas spam.";
-$_LANG['domainaddonsdnsmanagementinfo'] = "Aktifkan fitur ini jika Anda ingin mengelola DNS dari server lain.";
+$_LANG['domainaddonsidprotectioninfo'] = "Aktifkan fitur ini jika Anda ingin menyembunyikan identitas pribadi pemilik domain pada Whois Domain tools.";
+$_LANG['domainaddonsdnsmanagementinfo'] = "Aktifkan fitur ini jika Anda ingin mengelola DNS Zones tetapi server hosting tidak di e-Padi.com.";
 $_LANG['domainaddonsemailforwardinginfo'] = "Forward email yang masuk ke domain Anda ke email alternatif.";
 $_LANG['domainaddonsbuynow'] = "Aktifkan biaya";
 $_LANG['domainaddonsperyear'] = "/tahun";
@@ -1393,7 +1464,7 @@ $_LANG['domaincontactdetails']['Provinsi'] = "Provinsi";
 $_LANG['domaincontactdetails']['Negara'] = "Negara";
 $_LANG['domaincontactdetails']['Kode Pos'] = "Kode Pos";
 $_LANG['domaincontactdetails']['Negara'] = "Negara";
-$_LANG['domaincontactdetails']['Telp./HP'] = "Telp./HP";
+$_LANG['domaincontactdetails']['Telp./HP/WA'] = "Telp./HP/WA";
 $_LANG['domaincontactdetails']['Fax'] = "Fax";
 
 $_LANG['serverhostnameexample'] = "eg. server1(.namadomain.com)";
@@ -1450,13 +1521,13 @@ $_LANG['announcementschoosemonth'] = "Pilih bulan";
 $_LANG['announcementsbymonth'] = "Info Bulanan";
 $_LANG['announcementsolder'] = "Pengumuman Lama";
 $_LANG['createnewcontact'] = "Alamat Baru...";
-$_LANG['due'] = "Due";
+$_LANG['due'] = "Jatuh Tempo";
 $_LANG['affiliatessignups'] = "Total Daftar";
 $_LANG['affiliatesconversionrate'] = "Konversi";
 $_LANG['affiliatesclicks'] = "Total Klik";
 $_LANG['contacts'] = "Sub-Kontak";
 $_LANG['backtoservicedetails'] = "Kembali ke Rincian Layanan";
-$_LANG['invoicesintro'] = "Catatan tagihan Anda";
+$_LANG['invoicesintro'] = "Daftar rincian riwayat tagihan Anda";
 
 $_LANG['sidebars']['viewAccount']['yourAccount'] = "Akun Anda";
 $_LANG['sidebars']['viewAccount']['myDetails'] = "Rincian Saya";
@@ -1509,30 +1580,19 @@ $_LANG['tablepagesnext'] = "Selanjutnya";
 $_LANG['tablepagesprevious'] = "Sebelumnya";
 $_LANG['tableviewall'] = "Semua";
 $_LANG['tableentersearchterm'] = "Ketik Kata Pencarian...";
-
 $_LANG['actions'] = "Aksi Cepat";
-
 $_LANG['upgradedowngradeshort'] = "Up/Downgrade";
-
 $_LANG['masspayintro'] = "Bayar semua tagihan dibawah ini";
 $_LANG['masspaymentselectgateway'] = "Pilih Metode Pembayaran";
-
 $_LANG['ticketfeedbackrequest'] = "Permintaan Feedback";
 $_LANG['ticketfeedbackforticket'] = "untuk Tiket #";
-
 $_LANG['notifications'] = "Pemberitahuan";
 $_LANG['notificationsnone'] = "Anda belum memiliki pemberitahuan.";
-
 $_LANG['creditcardnonestored'] = "Kartu kredit tidak ada dalam database";
-
 $_LANG['kbviewingarticlestagged'] = "Lihat artikel yang di tandain";
-
 $_LANG['domainprivatenameservers'] = "Private NameServers";
-
 $_LANG['transferinadomain'] = "Transfer Domain ke e-Padi.com";
-
 $_LANG['nodomainextensions'] = "Ekstensi domain yang akan dibeli belum di konfigurasi dengan benar.";
-
 $_LANG['homebegin'] = "Apa nama domain yang akan Anda daftarkan hari ini...";
 $_LANG['howcanwehelp'] = "Akses Cepat?";
 $_LANG['exampledomain'] = "misal. e-padi.com";
@@ -1540,23 +1600,17 @@ $_LANG['buyadomain'] = "Order Domain";
 $_LANG['orderhosting'] = "Lihat Produk";
 $_LANG['makepayment'] = "Pembayaran";
 $_LANG['getsupport'] = "Tiket Support";
-
 $_LANG['news'] = "News Update";
 $_LANG['allthelatest'] = "Informasi terbaru dari";
 $_LANG['readmore'] = "Baca selengkapnya";
 $_LANG['noannouncements'] = "Belum ada pengumuman";
-
 $_LANG['kbsearchexplain'] = "Punya pertanyaan? silahkan cari disini.";
 $_LANG['readyforquestions'] = "Kami siap menjawab pertanyaan-pertanyaan Anda";
-
 $_LANG['restrictedpage'] = "Halaman khusus untuk member";
 $_LANG['enteremail'] = "Ketik email";
-
 $_LANG['passwordtips'] = "<strong>Tips Keamanan Password</strong><br />Untuk meningkatkan kemanan, gunakan password dengan kombinasi huruf kapital, huruf kecil, <br />dan tambahkan minimal 1 simbol khusus seperti (# $ ! % &amp; dll...).";
-
 $_LANG['regdate'] = "Tgl. Daftar";
 $_LANG['nextdue'] = "Expire";
-
 $_LANG['domaincheckertagline'] = "Cari nama domain terbaik untuk Anda daftarkan...";
 $_LANG['findyourdomain'] = "misal: e-padi";
 $_LANG['searchtermrequired'] = "Anda harus ketik nama domain atau kata kunci untuk mencari";
@@ -1569,38 +1623,28 @@ $_LANG['domainssearchresults'] = "Hasil Pencarian";
 $_LANG['domainssuggestions'] = "Rekomendasi";
 $_LANG['domainsothersuggestions'] = "Anda mungkin tertarik juga untuk mendaftarkan domain berikut ini";
 $_LANG['domainsmoresuggestions'] = "Rekomendasi Lainnya!";
-$_LANG['domainssuggestionswarnings'] = "Domain yang direkomendasikan mungkin tidak selalu tersedia. Kami sarankan Anda untuk memeriksa terlebih dahulu sebelum melakukan order Domain tersebut.";
+$_LANG['domainssuggestionswarnings'] = "Domain yang direkomendasikan mungkin tidak selalu tersedia. Kami sarankan Anda untuk memeriksa terlebih dahulu sebelum melakukan order Domain.";
 $_LANG['disclaimers'] = "Peringatan";
 $_LANG['tldpricing'] = "TLD";
 $_LANG['alltldpricing'] = "Semua TLD";
-
 $_LANG['quotesdesc'] = "Quotation Untuk Anda";
 $_LANG['quotesrejected'] = "Ditolak";
-
 $_LANG['ticketsyourhistory'] = "Rincian riwayat tiket Anda";
-
 $_LANG['clientareaemaildesc'] = "Catatan riwayat email terkirim kepada Anda";
-
 $_LANG['sslconfssl'] = "Konfigurasi SSL";
 $_LANG['sslnoconfigurationpossible'] = "Konfigurasi SSL berhasil! Silahkan menghubungi kami jika Anda belum mengerti cara menerapkan SSL pada hosting Anda.";
-
 $_LANG['adminloggedin'] = "Anda login sebagai Admin.";
 $_LANG['returntoadminarea'] = "Kembali ke Administrator";
 $_LANG['adminmasqueradingasclient'] = "Anda sedang login sbg Client";
 $_LANG['logoutandreturntoadminarea'] = "Kembali ke Administrator";
-
 $_LANG['supportAndUpdatesExpired'] = "Support & Updates sudah Expire.";
 $_LANG['supportAndUpdatesExpiredLicense'] = "Your Support & Updates period for this license has expired";
 $_LANG['supportAndUpdatesRenewalRequired'] = "Support & Updates access needs to be renewed before you can access this download.";
 $_LANG['supportAndUpdatesClickHereToRenew'] = "Click Here to Renew";
-
 $_LANG['pwresetemailneeded'] = "Ketik email pendaftaran Anda dibawah ini";
-
 $_LANG['quotestageexpired'] = "Expired";
-
 $_LANG['ticketinfo'] = "Informasi Tiket";
 $_LANG['customfield'] = "Informasi Tambahan";
-
 $_LANG['domainsActive'] = "Manage";
 $_LANG['domainsExpired'] = "Expired";
 $_LANG['domainsCancelled'] = "Dibatalkan";
@@ -1611,14 +1655,10 @@ $_LANG['domainsExpiringInTheNext30Days'] = "Expire dalam 30 hari";
 $_LANG['domainsExpiringInTheNext90Days'] = "Expire dalam 90 hari";
 $_LANG['domainsExpiringInTheNext180Days'] = "Expire dalam 180 hari";
 $_LANG['domainsExpiringInMoreThan180Days'] = "Expire dalam 180+ hari";
-
 $_LANG['kbtagcloud'] = "Tags";
-
 $_LANG['cancellationrequestedexplanation'] = "Permintaan pemberhentian langganan produk/layanan sudah pernah dibuat.";
 $_LANG['cancellationrequested'] = "Berhenti Langganan";
-
 $_LANG['yourrecenttickets'] = "Tiket Anda Sekarang";
-
 $_LANG['domains']['deTermsDescription1'] = "Untuk mendaftarkan domain baru, transfer, atau perubahan informasi pemilik domain. Pemilik domain harus menyetujui syarat dan ketentuan layanan domain .DE";
 $_LANG['domains']['deTermsDescription2'] = "(Baca syarat dan ketentuan layanan domain .DE di http://www.denic.de/en/bedingungen.html )";
 $_LANG['directDebitPageTitle'] = "Direct Debit Payment";
@@ -1626,31 +1666,26 @@ $_LANG['directDebitHeader'] = "Direct Debit Payment";
 $_LANG['directDebitErrorNoBankName'] = "Ketik nama bank Anda";
 $_LANG['directDebitErrorAccountType'] = "Pilih jenis tabungan Anda";
 $_LANG['directDebitErrorNoABA'] = "You must enter your banks ABA code";
-$_LANG['directDebitErrorAccNumber'] = "You must enter your bank account number";
-$_LANG['directDebitErrorConfirmAccNumber'] = "You must confirm your bank account number";
-$_LANG['directDebitErrorAccNumberMismatch'] = "Your bank account number & confirmation don't match";
+$_LANG['directDebitErrorAccNumber'] = "Ketik nomor rekening tabungan Anda";
+$_LANG['directDebitErrorConfirmAccNumber'] = "Ketik ulang nomor rekening tabungan Anda";
+$_LANG['directDebitErrorAccNumberMismatch'] = "Nomor rekening dan ketik ulang nomor rekening tidak sesuai";
 $_LANG['directDebitThanks'] = "Thank you for submitting your details. We will attempt to process your payment using the supplied details within the next few days, and contact you in case of any problems.";
 $_LANG['directDebitPleaseSubmit'] = "Please submit your bank account details below to pay by Direct Debit.";
-$_LANG['directDebitBankName'] = "Bank Name";
-$_LANG['directDebitAccountType'] = "Bank Account Type";
+$_LANG['directDebitBankName'] = "Nama Bank";
+$_LANG['directDebitAccountType'] = "Jenis Tabungan";
 $_LANG['directDebitABA'] = "Bank ABA Code";
-$_LANG['directDebitAccNumber'] = "Bank Account Number";
-$_LANG['directDebitConfirmAccNumber'] = "Confirm Account Number";
+$_LANG['directDebitAccNumber'] = "Nomor Rekening Tabungan";
+$_LANG['directDebitConfirmAccNumber'] = "Ketik ulang nomor rekening tabungan";
 $_LANG['directDebitSubmit'] = "Submit";
-$_LANG['directDebitChecking'] = "Checking";
-$_LANG['directDebitSavings'] = "Savings";
-
+$_LANG['directDebitChecking'] = "Giro";
+$_LANG['directDebitSavings'] = "Tabungan";
 $_LANG['outOfStockProductRemoved'] = "Stok produk/layanan sudah tersedia kembali";
-
 $_LANG['chooselanguage'] = "Change language";
-
 $_LANG['success'] = "Berhasil";
 $_LANG['error'] = "Error";
-$_LANG['print'] = "Print";
+$_LANG['print'] = "Cetak";
 $_LANG['invoicelineitems'] = "Rincian Tagihan";
-
 $_LANG['quotelineitems'] = "Rincian Penawaran";
-
 $_LANG['quoteproposal'] = "Proposal";
 $_LANG['quoteacceptagreetos'] = "Untuk menerima penawaran, Anda harus menyetujui syarat dan ketentuan layanan yang telah ditetapkan.";
 $_LANG['quoteacceptcontractwarning'] = "Perlu diketahui bahwa menerima Penawaran akan dianggap masuk ke dalam kontrak dan Anda tidak dibenarkan membatalkannya.";
@@ -1676,9 +1711,7 @@ $_LANG['clientHomePanels']['affiliateProgram'] = "Program Affiliate";
 $_LANG['clientHomePanels']['recentSupportTickets'] = "Tiket Support";
 $_LANG['clientHomePanels']['recentSupportTicketsNone'] = "Anda perlu bantuan kami? silahkan <a href=\"submitticket.php\">Buka Tiket Support</a>.";
 $_LANG['clientHomePanels']['affiliateSummary'] = "Komisi affiliasi Anda adalah <strong> :commissionBalance</strong>. Anda perlu mengumpulkan <strong>:amountUntilWithdrawalLevel</strong> lagi untuk dapat melakukan pencairan komisi ke rekening Anda.";
-
 $_LANG['upgradeNotPossible'] = "Upgrading this product is not possible.  If you believe you've reached this page in error, please notify our support department.  Otherwise, go back and double check your selection.";
-
 $_LANG['hostingInfo'] = "Informasi Hosting";
 $_LANG['additionalInfo'] = "Informasi Tambahan";
 $_LANG['resourceUsage'] = "Pengunaan Resource";
@@ -1688,31 +1721,23 @@ $_LANG['diskSpace'] = "Disk Space";
 $_LANG['bandwidth'] = "Bandwidth";
 $_LANG['registered'] = "Terdaftar";
 $_LANG['upgrade'] = "Upgrade";
-
 $_LANG['downdoadsdesc'] = "Unduh file dan aplikasi gratis";
-
 $_LANG['doToday'] = "Apa yang ingin Anda lakukan sekarang?";
 $_LANG['changeDomainNS'] = "Ganti NameServer domain";
 $_LANG['updateWhoisContact'] = "Edit informasi contact WHOIS";
 $_LANG['changeRegLock'] = "Ganti status Kunci Registrar";
 $_LANG['renewYourDomain'] = "Perpanjang masa aktif";
-
 $_LANG['oops'] = "Oops";
 $_LANG['goback'] = "Kembali";
 $_LANG['returnhome'] = "Kembali ke Depan";
 $_LANG['blankCustomField'] = "(no value)";
-
 $_LANG['viewAll'] = "Lihat Semua";
 $_LANG['moreDetails'] = "Selengkapnya";
-
 $_LANG['clientHomeSearchKb'] = "Ketik pertanyaan Anda untuk mencari tutorial...";
-
 $_LANG['whoisContactWarning'] = "Ganti informasi Contact WHOIS domain.";
-
 $_LANG['paymentstodate'] = "Payments to Date";
 $_LANG['balancedue'] = "Saldo Jatuh Tempo";
 $_LANG['submitpayment'] = "Kirim Pembayaran";
-
 $_LANG['domaincheckeravailable'] = "Tersedia";
 $_LANG['domaincheckertransferable'] = "Tersedia untuk di Transfer";
 $_LANG['domaincheckertaken'] = "Sudah Ada yang Punya";
@@ -1721,20 +1746,16 @@ $_LANG['domaincheckeradded'] = "Berhasil Ditambahkan";
 $_LANG['domaincheckernomoresuggestions'] = "Jika Anda belum menemukan pilihan domain yang sesuai, silahkan gunakan kata kunci yang lainnya.";
 $_LANG['domaincheckerunabletooffertld'] = "Maaf, domain yang ingin Anda daftarkan tidak bisa kami proses saat ini.";
 $_LANG['domaincheckerbulkplaceholder'] = "Ketik maximal hingga 20 domain yang akan Anda cari.\nSetiap domain harus dipisah menggunakan baris (Enter).\n\nMisalnya:\ncontohdomain1.com\ncontohdomain2.net";
-
 $_LANG['domainchecker']['suggestiontakentitle'] = "Domain Tidak Tersedia";
 $_LANG['domainchecker']['suggestiontakenmsg'] = "Maaf, Domain yang Anda pilih sudah tidak tersedia. Hal ini bisa terjadi karena domain tersebut sudah ada yang mendaftarkan. Silahkan kembali dan pilih domain lain.";
 $_LANG['domainchecker']['suggestiontakenchooseanother'] = "Pilih domain lain";
-
 $_LANG['domainchecker']['alreadyincarttitle'] = "Sudah ada dalam Keranjang Belanja";
 $_LANG['domainchecker']['alreadyincartmsg'] = "Domain ini sudah ada dalam Keranjang Belanja Anda. Proses Checkout untuk menyelesaikan order Anda.";
 $_LANG['domainchecker']['alreadyincartcheckoutnow'] = "Checkout";
-
 $_LANG['genericerror']['title'] = "Maaf, telah terjadi kesalahan!";
 $_LANG['genericerror']['msg'] = "Silahkan coba lagi, jika masih terjadi masalah yang sama, silahkan menghubungi Customer Support kami.";
 
 # Licensing Addon
-
 $_LANG['licensingaddon']['mylicenses'] = "Lisensi Saya";
 $_LANG['licensingaddon']['latestdownload'] = "Download Terakhir";
 $_LANG['licensingaddon']['downloadnow'] = "Download Sekarang";
@@ -1745,25 +1766,20 @@ $_LANG['licensingaddon']['validdirectory'] = "Directory Aktif";
 $_LANG['licensingaddon']['status'] = "Status Lisensi";
 $_LANG['licensingaddon']['reissue'] = "Reissue";
 $_LANG['licensingaddon']['reissuestatusmsg'] = "The Valid Domain, IP and Directory will be detected & saved the next time the license is accessed.";
-
 $_LANG['affiliateWithdrawalSummary'] = "Anda dapat melakukan pencairan dana ke rekening jika sudah mencapai saldo minimum :amountForWithdrawal.";
-
 $_LANG['projectManagement']['activeProjects'] = "Your Active Projects";
 
 # cPanel Module
-
 $_LANG['cPanel']['packageDomain'] = "Paket/Domain";
 $_LANG['cPanel']['addonsExtras'] = "Layanan Tambahan";
 $_LANG['cPanel']['purchaseActivate'] = "Beli & Aktifkan";
-
 $_LANG['cPanel']['usageStats'] = "Statistics Penggunaan";
 $_LANG['cPanel']['diskUsage'] = "Disk Quota";
 $_LANG['cPanel']['bandwidthUsage'] = "Bandwidth/Traffic";
-$_LANG['cPanel']['usageStatsBwLimitNear'] = "You are nearing your bandwidth limit.";
-$_LANG['cPanel']['usageStatsDiskLimitNear'] = "You are nearing your disk space limit.";
-$_LANG['cPanel']['usageUpgradeNow'] = "Upgrade Now";
-$_LANG['cPanel']['usageLastUpdated'] = "Last Updated";
-
+$_LANG['cPanel']['usageStatsBwLimitNear'] = "Penggunaan bandwidth hampir habis.";
+$_LANG['cPanel']['usageStatsDiskLimitNear'] = "Penggunaan disk quota hampir penuh.";
+$_LANG['cPanel']['usageUpgradeNow'] = "Upgrade Sekarang";
+$_LANG['cPanel']['usageLastUpdated'] = "Update";
 $_LANG['cPanel']['quickShortcuts'] = "Akses ke cPanel";
 $_LANG['cPanel']['emailAccounts'] = "Email Accounts";
 $_LANG['cPanel']['forwarders'] = "Forwarders";
@@ -1776,53 +1792,42 @@ $_LANG['cPanel']['cronJobs'] = "Cron Jobs";
 $_LANG['cPanel']['mysqlDatabases'] = "MySQL Databases";
 $_LANG['cPanel']['phpMyAdmin'] = "phpMyAdmin";
 $_LANG['cPanel']['awstats'] = "Awstats";
-
 $_LANG['cPanel']['createEmailAccount'] = "Buat Email Baru";
 $_LANG['cPanel']['usernamePlaceholder'] = "User";
 $_LANG['cPanel']['passwordPlaceholder'] = "Password";
 $_LANG['cPanel']['create'] = "Buat Email";
-$_LANG['cPanel']['emailAccountCreateSuccess'] = "Email account created successfully!";
-$_LANG['cPanel']['emailAccountCreateFailed'] = "Email account creation failed: ";
-
-$_LANG['cPanel']['packageNotActive'] = "This hosting package is currently";
-$_LANG['cPanel']['statusPendingNotice'] = "You cannot begin using this hosting account until it is activated.";
-$_LANG['cPanel']['statusSuspendedNotice'] = "You cannot continue to use or manage this package until it is reactivated.";
-
+$_LANG['cPanel']['emailAccountCreateSuccess'] = "Pembuatana alamat email baru telah berhasil!";
+$_LANG['cPanel']['emailAccountCreateFailed'] = "Pembuatan email gagal: ";
+$_LANG['cPanel']['packageNotActive'] = "Status Paket Hosting : ";
+$_LANG['cPanel']['statusPendingNotice'] = "Hosting hanya dapat digunakan jika status sudah Aktif.";
+$_LANG['cPanel']['statusSuspendedNotice'] = "Anda tidak dapat mengelola dan menggunakan paket ini sebelum di aktivasi ulang.";
 $_LANG['cPanel']['billingOverview'] = "Rincian Tagihan";
 
 $_LANG['liveHelp']['chatNow'] = "Chat Now";
-
 $_LANG['quotes'] = "Quotes";
-
-$_LANG['productMustBeActiveForModuleCmds'] = "Product must be active to perform this action";
-$_LANG['domainCannotBeManagedUnlessActive'] = "This domain is not currently active. Domains cannot be managed unless active.";
-
+$_LANG['productMustBeActiveForModuleCmds'] = "Produk harus aktif untuk dapat menjalankan aksi ini";
+$_LANG['domainCannotBeManagedUnlessActive'] = "Domain tidak dapat dikelola karena belum Aktif.";
 $_LANG['actionRequiresAtLeastOneDomainSelected'] = 'Please select at least one domain to perform the selected action on.';
-
 $_LANG['clientAreaProductDownloadsAvailable'] = "The following download items are available for your product/service";
 $_LANG['clientAreaProductAddonsAvailable'] = "Tersedia beberapa produk tambahan untuk produk yang sudah Anda beli. Rinciannya <a href=\"cart.php?gid=addons\">Klik Disini</a>";
 $_LANG['clientAreaSecurityTwoFactorAuthRecommendation'] = "We strongly encourage you to enable Two-Factor Authentication for added security.";
 $_LANG['clientAreaSecurityNoSecurityQuestions'] = "Setting a security question and answer helps protect your account from unauthorized password resets and allows us to verify your identity when requesting account changes.";
 $_LANG['clientAreaSecuritySecurityQuestionOtherError'] = "Pertanyaan Rahasia bertujuan untuk melindungi akun Anda dari pembajakan oleh pihak lain. Pertanyaan rahasia ini diperlukan saat Anda melakukan reset password member area.";
-
 $_LANG['billingAddress'] = "Alamat Tagihan";
-
 $_LANG['noPasswordResetWhenLoggedIn'] = "Anda tidak dapat meminta Reset Password selama masih login. Silahkan Logout untuk reset password.";
-
 $_LANG['unableToLoadShoppingCart'] = "Keranjang belanja tidak dapat ditampilkan. Silahkan menghubungi Customer Support.";
-
 $_LANG['showMenu'] = "Show Menu";
 $_LANG['hideMenu'] = "Hide Menu";
-
 $_LANG['from'] = "Dari";
 $_LANG['featuredProduct'] = "Terpopuler";
 $_LANG['shoppingCartProductPerMonth'] = "<span>:price</span>/:countmo";
 $_LANG['shoppingCartProductPerYear'] = "<span>:price</span>/:countyr";
-
 $_LANG['orderForm']['findNewDomain'] = "Daftarkan nama domain terbaik Anda hari ini. Ketik kata kunci untuk memulai pencarian domain.";
 $_LANG['orderForm']['transferExistingDomain'] = "Pindahkan domain Anda dari provider lain ke ke e-Padi.com.";
 $_LANG['orderForm']['www'] = "www.";
 $_LANG['orderForm']['returnToClientArea'] = "Kembali ke Member Area";
+$_LANG['orderForm']['checkout'] = "Checkout";
+$_LANG['orderForm']['alreadyRegistered'] = "Sudah Terdaftar?";
 $_LANG['orderForm']['createAccount'] = "Buat Akun Baru";
 $_LANG['orderForm']['enterPersonalDetails'] = "Silahkan lengkapi data pribadi Anda dan alamat penagihan untuk menyelesaikan order.";
 $_LANG['orderForm']['correctErrors'] = "Mohon periksa kembali informasi berikut ini sebelum melanjutkan";
@@ -1831,7 +1836,7 @@ $_LANG['orderForm']['emailAddress'] = "Alamat Email";
 $_LANG['orderForm']['personalInformation'] = "Data Pribadi";
 $_LANG['orderForm']['firstName'] = "Nama Depan";
 $_LANG['orderForm']['lastName'] = "Nama Belakang";
-$_LANG['orderForm']['phoneNumber'] = "No. Telp.";
+$_LANG['orderForm']['phoneNumber'] = "No. Telp. / WA";
 $_LANG['orderForm']['billingAddress'] = "Alamat";
 $_LANG['orderForm']['companyName'] = "Nama Perusahaan";
 $_LANG['orderForm']['optional'] = "Opsi";
@@ -1851,7 +1856,7 @@ $_LANG['orderForm']['additionalNotes'] = "Catatan Tambahan";
 $_LANG['orderForm']['continueToClientArea'] = "Lanjut ke Member Area";
 $_LANG['orderForm']['reviewDomainAndAddons'] = "Rincian domain yang dipilih dan fitur tambahan yang tersedia.";
 $_LANG['orderForm']['configureDesiredOptions'] = "Lengkapi order Anda dengan layanan tambahan yang tersedia";
-$_LANG['orderForm']['haveQuestionsContact'] = "Jika ada pertanyaan silahkan menghubungi kami di +62.0811682661 / +62.651.8085936.";
+$_LANG['orderForm']['haveQuestionsContact'] = "Jika ada pertanyaan silahkan menghubungi kami di +62.0811682661 / +62.651.3615016.";
 $_LANG['orderForm']['haveQuestionsClickHere'] = "Klik disini";
 $_LANG['orderForm']['use'] = "pakai"; 
 $_LANG['orderForm']['check'] = "Check";
@@ -1983,13 +1988,13 @@ $_LANG['orderForm']['add'] = "Tambah";
 $_LANG['orderForm']['suggestedDomains'] = "Rekomendasi Domain";
 $_LANG['orderForm']['generatingSuggestions'] = "Tunggu Sebentar!<br />Kami bantu carikan rekomendasi domain lain untuk Anda";
 $_LANG['orderForm']['addHosting'] = "Tambah Layanan Web Hosting";
-$_LANG['orderForm']['chooseFromRange'] = "Pilih dari berbagai paket web hosting";
+$_LANG['orderForm']['chooseFromRange'] = "Pilih dari berbagai paket web hosting yang tersedia";
 $_LANG['orderForm']['packagesForBudget'] = "Kami memiliki paket yang dirancang agar sesuai dengan anggaran website Anda";
-$_LANG['orderForm']['exploreNow'] = "Lihat paket yang tersedia";
+$_LANG['orderForm']['exploreNow'] = "Lihat Layanan yang tersedia";
 $_LANG['orderForm']['transferToUs'] = "Transfer domain ke e-Padi.com";
-$_LANG['orderForm']['transferExtend'] = "Transfer sekarang untuk menambah 1 tahun masa aktif domain!";
+$_LANG['orderForm']['transferExtend'] = "Transfer Domain otomatis akan menambah 1 tahun masa aktif domain!";
 $_LANG['orderForm']['transferDomain'] = "Transfer domain";
-$_LANG['orderForm']['extendExclusions'] = "Excludes certain TLDs and recently renewed domains";
+$_LANG['orderForm']['extendExclusions'] = "Kecuali TLD (extension) tertentu dan domain yang baru diperpanjang masa aktif.";
 $_LANG['orderForm']['singleTransfer'] = "Transfer Domain";
 $_LANG['orderForm']['enterDomain'] = "Ketik Domain Anda";
 $_LANG['orderForm']['authCode'] = "Kode Authorization";
@@ -2086,7 +2091,7 @@ $_LANG['store']['emailServices']['headline'] = "Email Security, Built for You";
 $_LANG['store']['emailServices']['tagline'] = "Take back control of your inbox";
 $_LANG['store']['emailServices']['blockSpamHeadline'] = "Block nearly 100% of viruses, malware and spam before they ever reach your inbox";
 
-$_LANG['navManageSsl'] = "Manage SSL Certificates";
+$_LANG['navManageSsl'] = "Kelola SSL Certificates";
 
 $_LANG['invoicesPaymentPending'] = "Pembayaran Ditangguhkan";
 
@@ -2117,7 +2122,7 @@ $_LANG['remoteAuthn']['completeRegistrationForm'] = 'Please complete the registr
 $_LANG['remoteAuthn']['completeNewAccountForm'] = 'Please complete your new account information.';
 $_LANG['remoteAuthn']['linkedToAnotherClient'] = 'This account is already connected to an existing account with us. Please choose a different account at the third party authentication provider.';
 $_LANG['remoteAuthn']['alreadyLinkedToYou'] = 'This account is already connected to your account with us. Please choose a different account at the third party authentication provider.';
-$_LANG['remoteAuthn']['saveTimeByLinking'] = 'Hemat waktu dengan menggunakan akun yang sudah terdaftar.';
+$_LANG['remoteAuthn']['saveTimeByLinking'] = 'Jika sudah pernah terdaftar silahkan klik tombol Sudah Terdaftar diatas.';
 $_LANG['remoteAuthn']['unlinkDesc'] = 'This permanently unlinks the authorized account.';
 $_LANG['remoteAuthn']['mayHaveMultipleLinks'] = 'Connect your account with any of the services below to simplify your sign-in experience. We only use this information to verify your account and will never post on your behalf.';
 $_LANG['remoteAuthn']['titleSignUpVerb'] = 'Sign Up';
@@ -2141,6 +2146,6 @@ $_LANG['marketConnect']['weebly']['ftpUsername'] = "FTP Username";
 $_LANG['marketConnect']['weebly']['ftpPassword'] = "FTP Password";
 $_LANG['marketConnect']['weebly']['ftpPath'] = "FTP Path";
 $_LANG['marketConnect']['weebly']['updateFtp'] = "Update FTP Credentials";
-$_LANG['marketConnect']['weebly']['manage'] = "Login to Weebly";
+$_LANG['marketConnect']['weebly']['manage'] = "Login ke Weebly";
 
 ////////// End of Bahasa Indonesia language file. Jangan tambahkan terjemahan dibawah baris ini!
